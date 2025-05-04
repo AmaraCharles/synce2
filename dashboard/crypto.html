@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)deposit.html/1?method=coin -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Capitaltradenow | Deposit</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- App favicon -->
+      <link rel="shortcut icon" href="https://Capitaltradenow.com/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://Capitaltradenow.com/dash/plugins/jvectormap/jquery-jvectormap-2.0.2.css%22%20rel=%22stylesheet">
+    <!-- App css -->
+    <link href="./crypto_files/custom.css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/dashboard.css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/select2.min.css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/jquery-ui.min.css" rel="stylesheet">
+    <link href="./crypto_files/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/custom(1).css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/metisMenu.min.css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/daterangepicker.css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/dropify.min.css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/jquery.steps.css" rel="stylesheet">
+    <link href="./crypto_files/mastercard.css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/app.min.css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/sweetalert2.min.css" rel="stylesheet" type="text/css">
+    <link href="./crypto_files/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" charset="utf-8" async="" src="./crypto_files/loader.js.download"></script><script src="./crypto_files/sweetalert2.min.js.download"></script>
+    <style>
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="number"] {
+            background: transparent
+        }
+
+        label {
+            color: #fff
+        }
+
+        .swal2-popup .swal2-title,
+        .swal2-content {
+            color: #fff !important
+        }
+    </style>
+</head>
+
+
+
+    
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" async></script>
+
+    
+<!-- End of .page_wrapper -->
+
+<!-- End of .page_wrapper -->
+
+
+
+ <div class="gtranslate_wrapper"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            try {
+                window.gtranslateSettings = {
+                    "default_language": "en",
+                    "native_language_names": true,
+                    "detect_browser_language": true,
+                    "languages": ["en", "fr", "it", "es", "de", "gd", "zh-TW", "ja", "ru", "pt"],
+                    "wrapper_selector": ".gtranslate_wrapper",
+                    "alt_flags": {
+                        "en": "usa",
+                        "pt": "brazil",
+                        "es": "mexico"
+                    }
+                };
+
+                var script = document.createElement('script');
+                script.src = "https://cdn.gtranslate.net/widgets/latest/float.js";
+                script.async = true;
+                script.onerror = function() {
+                    console.error('Error loading the GTranslate script.');
+                };
+                document.head.appendChild(script);
+            } catch (error) {
+                console.error('Error setting up GTranslate:', error);
+            }
+        });
+    </script>
+
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" async></script>
+
+<body class="dark-sidenav" data-new-gr-c-s-check-loaded="14.1207.0" data-gr-ext-installed="">        
+      <!-- Left Sidenav -->
+<div class="left-sidenav">
+    <!-- LOGO -->
+    <div class="brand"><a href="dashboard.html" class="logo"><span> </span><span><img  src="./deposithistory_files/logo.png" alt="" class="logo-lg logo-light">
+                <img src="./deposithistory_files/logo.png" alt="" class="logo-lg logo-dark"></span></a></div>
+    <!--end logo-->
+    <div class="menu-content h-100" data-simplebar="">
+        <div class="left-sidenav-menu text-white">
+            <div class="profile-info">
+                <p class="fs--13px mb-3 fw-bold">ACCOUNT BALANCE</p>
+                <p class="btc-balance fw-medium fs--18px" id="accountBalance"> <sub class="top-0 fs--13px"><small>(Trading interest)</small> </sub></p>
+                <p class="btc-balance fw-medium fs--18px" id="profit"><sub class="top-0 fs--13px"><small> (Assets interest)</small></sub></p>
+                <div class="mt-4 d-flex flex-wrap" style="    gap: 10px;">
+                    <a href="deposit.html" class="btn btn-primary btn--smd">Deposit</a>
+                    <a href="withdraw.html" class="btn btn-secondary btn--smd">Withdraw</a>
+                </div>
+            </div>
+        </div>
+        <style>
+            .sb-img {
+                width: 18px;
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+            .nav-link,
+            .nv-dd {
+                font-size: 16px;
+                color: #fff !important;
+            }
+        </style>
+        <ul class="metismenu left-sidenav-menu">
+            <li><a class="nav-link" href="dashboard.html"><img class="sb-img" src="./deposithistory_files/dashboard.png" alt="icon"><span>Dashboard</span></a>
+            </li>
+            <hr class="hr-dashed hr-menu">
+            <li><a href="javascript: void(0);" class="nv-dd"><img class="sb-img" src="./deposithistory_files/investment.png" alt="icon"><span>Stock
+                        Trading</span><span class="menu-arrow"><i class="fas fa-chevron-right"></i></span></a>
+                <ul class="nav-second-level mm-collapse" aria-expanded="false">
+                    <li class="nav-item"><a class="nav-link" href="tsla.html">TSLA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="spy.html">SPY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="spx.htm">SPX</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aaple.html">APPL</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="ba.html">BA</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="sp.html">S&amp;P</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-link" href="livetrade.html"><img class="sb-img" src="./deposithistory_files/investment.png" alt="icon"><span>Live
+                        Trading</span></a>
+            </li>
+            <li><a class="nav-link" href="buy-stock.html"><img class="sb-img" src="./deposithistory_files/wallet.png" alt="icon"><span>Buy stock</span></a>
+            </li>
+            <li><a class="nav-link" href="ranking.html"><img class="sb-img" src="./deposithistory_files/investment.png" alt="icon"><span>Ranking</span></a>
+            </li>
+            <hr class="hr-dashed hr-menu">
+            <li><a href="javascript: void(0);" class="nv-dd"><img class="sb-img" src="./deposithistory_files/wallet.png" alt="icon"><span>Deposit</span><span class="menu-arrow"><i class="fas fa-chevron-right"></i></span></a>
+                <ul class="nav-second-level mm-collapse" aria-expanded="false">
+                    <li class="nav-item"><a class="nav-link" href="deposit.html"><i class="fas fa-circle"></i>Make
+                            Deposit</a></li>
+                    <li class="nav-item"><a class="nav-link" href="deposithistory.html"><i class="fas fa-circle"></i>Deposit History</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="javascript: void(0);" class="nv-dd"><img class="sb-img" src="./deposithistory_files/withdraw.png" alt="icon"><span>Withdrawal</span><span class="menu-arrow"><i class="fas fa-chevron-right"></i></span></a>
+                <ul class="nav-second-level mm-collapse" aria-expanded="false">
+                    <li class="nav-item"><a class="nav-link" href="withdraw.html"><i class="fas fa-circle"></i>Make
+                            Withdrawal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="withdrawalhistory.html"><i class="fas fa-circle"></i>Withdrawal History</a></li>
+                </ul>
+            </li>
+            <!-- <li><a class="nav-link" href="transactionhistory.html"><img class="sb-img" src="./deposithistory_files/transaction.png" alt="icon"><span>Transaction
+                        History</span></a>
+            </li> -->
+            <hr class="hr-dashed hr-menu">
+            <li><a class="nav-link" href="2fa.html"><img class="sb-img" src="./deposithistory_files/2fa.png" alt="icon"><span>2FA</span></a>
+            </li>
+            <li><a href="javascript: void(0);" class="nv-dd"><img class="sb-img" src="./deposithistory_files/referral.png" alt="icon"><span>Referral</span><span class="menu-arrow"><i class="fas fa-chevron-right"></i></span></a>
+                <ul class="nav-second-level mm-collapse" aria-expanded="false">
+                    <li class="nav-item"><a class="nav-link" href="referral.html"><i class="fas fa-circle"></i>Referrals</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="referral.html-bonus"><i class="fas fa-circle"></i>Referral Bonus</a></li> -->
+                </ul>
+            </li>
+            <li><a class="nav-link" href="profile.html"><img class="sb-img" src="./deposithistory_files/profile.png" alt="icon"><span>Profile</span></a>
+            </li>
+            <li><a class="nav-link" href="kyc.html"><img class="sb-img" src="./deposithistory_files/profile.png" alt="icon"><span>KYC
+                        Verification</span></a>
+            </li>
+            <li><a class="nav-link" href="tickets.html"><img class="sb-img" src="./deposithistory_files/ticket.png" alt="icon"><span>Support
+                        Tickets</span></a>
+            </li>
+                        <hr class="hr-dashed hr-menu">
+            <li><a class="nav-link" href="../login.html" ><img class="sb-img" src="./deposithistory_files/logout.png" alt="icon"><span>Logout</span></a>
+              
+            </li>
+    </ul></div>
+</div><!-- end left-sidenav-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <div class="page-wrapper">
+
+        <!-- Top Bar Start -->
+<div class="topbar">
+    <!-- Navbar -->
+    <nav class="navbar-custom">
+        <div class="float-right d-flex align-items-center">
+           
+            <ul class="list-unstyled topbar-nav mb-0">
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="deposit.html/1?method=coin#" role="button" aria-haspopup="false" aria-expanded="false"><span class="mx-3 nav-user-name hidden-sm" id="emailAbove"></span>
+                        <div class="avatar-box thumb-sm align-self-center mr-2"><span class="avatar-title bg-purple rounded-circle"><i class="fas fa-user"></i></span></div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        
+                        <a class="dropdown-item" href="password.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings align-self-center icon-xs icon-dual mr-1"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>Change Password</a>
+                        <div class="dropdown-divider mb-0"></div><a class="dropdown-item" href="../login.html" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-power align-self-center icon-xs icon-dual mr-1"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>
+                            Logout</a>
+                       
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--end topbar-nav-->
+        <ul class="list-unstyled topbar-nav mb-0">
+            <li><button class="nav-link button-menu-mobile"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu align-self-center topbar-icon"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button></li>
+        </ul>
+    </nav><!-- end navbar-->
+</div><!-- Top Bar End -->
+
+        <div class="page-content">
+            <div>
+                    <div>
+        <div class="container-fluid">
+            <!-- Page-Title -->
+            <div class="row">
+                <div class="dashboard-inner">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="mb-4">
+                                <h3 class="mb-2">Deposit Funds</h3>
+                                <p>Add funds using our system's gateway. The deposited amount will be credited to the deposit wallet. You'll just make investments from this wallet.</p>
+                            </div>
+                            <div class="text-end mb-3">
+                                <a href="./deposithistory.html" class="btn btn--secondary btn--smd"><i class="fas fa-long-arrow-alt-left"></i> Deposit History</a>
+                            </div>
+                            <form method="post" onsubmit="proceed(event)">
+                                                <input type="hidden" name="method_code">
+                                <input type="hidden" name="currency">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                 <div class="form-group">
+                                                    <label class="form-label required" for="wallet">Wallet</label>
+                                                    <select class="form-select form-control form--control" name="wallet" required="" id="wallet">
+                                                        <option value="">Select One</option>
+                                                        <option value="deposit_wallet">Deposit Wallet</option>
+                                                        <!--<option value="staking_wallet">Staking Wallet</option>-->
+                                                      
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label required" for="gateway">Select Gateway</label>
+                                                    <select class="form-select form-control form--control" id="method"\>
+                                                        <option value="">Select One</option>
+                                                                                                <option id="btc" value="btc" >Bitcoin</option>
+                                                                                                <option  id="eth" value="ethereum">Ethereum</option>
+                                                                                                <option  id="usdt(erc20)" value="usdt(erc20)" >Usdt(erc20)</option>
+                                                                                                
+                                                                                                                                                                                           <option id="usdt(trc20)" value="usdt(trc20)"onclick="checkpamethd(this.value)">Tether USDT (TRC20)</option>
+                                                                                                                                                                                           <option id="solana" value="solana"onclick="checkpamethd(this.value)">Solana</option>
+                                                                                                                                                                                           <option id="litecoin" value="litecoin"onclick="checkpamethd(this.value)">Litecoin</option>
+                                                                                                                                                                                           <option id="xrp" value="xrp"onclick="checkpamethd(this.value)">Xrp</option>
+                                                                                            </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label class="form-label required" for="amount">Amount</label>
+                                                    <div class="input-group">
+                                                        <input type="number" step="any" name="amount" class="form-control form--control" value="" autocomplete="off" required="" id="amount">
+                                                        <span class="input-group-text">USD</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <style>
+                                            #preview-details {
+    color: black;
+}
+
+#preview-details .fw-bold {
+    color: black;
+}
+
+                                        </style>
+                                        <div class="mt-3 preview-details d-none" id="preview-details">
+                                            <ul class="list-group">
+                                                <li class="list-group-item d-flex justify-content-between">
+                                                    <span>Limit</span>
+                                                    <span><span class="min fw-bold">1000</span> USD - <span class="max fw-bold">1000000</span> USD</span>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between">
+                                                    <span>Charge</span>
+                                                    <span><span class="charge fw-bold">0</span> USD</span>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between">
+                                                    <span>Payable</span> <span><span class="payable fw-bold">0</span> USD</span>
+                                                </li>
+                                                <li class="list-group-item justify-content-between d-none rate-element">
+                                                </li>
+                                                <li class="list-group-item justify-content-between d-none in-site-cur">
+                                                    <span>In <span class="method_currency"></span></span>
+                                                    <span class="final_amo fw-bold">0</span>
+                                                </li>
+                                                <li class="list-group-item justify-content-center crypto_currency d-none">
+                                                    <span>Conversion with <span class="method_currency"></span> and final value will Show on next step</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <button type="" class="btn btn-primary w-100 mt-3" id="paybtn">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+        <!--end row-->
+    </div>
+
+
+    </div>
+    <script>
+        document.getElementById('amount').addEventListener('input', function() {
+            var inputValue = this.value;
+            var previewDetails = document.getElementById('preview-details');
+            var payableSpan = document.querySelector('.payable');
+    
+            // Show the preview details div
+            previewDetails.classList.remove('d-none');
+    
+            // Update the payable span with the input value
+            payableSpan.textContent = inputValue ? inputValue : '0';
+        });
+    </script>
+    
+    
+    <!-- .page-content -->
+ <script>
+                                
+ 
+                        function checkpamethd(value){
+                                        localStorage.setItem('paymentId',value)
+                                        let url = "./" + value + ".html";
+                                    
+                                        console.log(url)
+                                        alert("you have chosen to pay with" + value)
+                                            return id
+                                        }
+                    
+                       
+                       async function proceed(event) {
+                            event.preventDefault()
+ 
+                           var limit=1000
+                            var first=document.getElementById("amount")
+                           var depositing=first.value;
+                           var url=$("#method").val()
+                           localStorage.setItem('traderId',url)
+                        
+                                    localStorage.setItem('depositing',depositing)
+                        if(Number(limit)>Number(depositing))
+                        {
+
+                            alert("Invalid amount")
+                        }
+                        else{
+                            var getUser=localStorage.getItem("user")
+                        var parseUser=JSON.parse(getUser)
+                        var name=parseUser.firstName+" "+parseUser.lastName
+                        var userId=parseUser._id
+                        
+                        var currency=localStorage.getItem("depositing")
+                      console.log(name,currency,userId);
+                      
+                            // await depositFnc({name,currency,userId})
+                           var urlRedirect = "./" + url + ".html";
+                       
+                           location.href=urlRedirect;
+                        }
+                           
+                       };
+                    
+                       function ferchUserInfo(){
+                        const user=localStorage.getItem("user")
+                        const parsedUser=JSON.parse(user)
+                    console.log(parsedUser);
+                        return parsedUser
+                       }
+                    
+                       $(document).ready(async function() {
+                    
+                    const balcall=await ferchUserInfo()
+                    $("#balance").text(balcall.accountBalance)
+                   
+                       })
+                    </script>
+    <script>
+        document.getElementById("btc_address_p").onclick = () => {
+            var range = document.createRange();
+            range.selectNode(document.getElementById("btc_address"));
+            window.getSelection().removeAllRanges(); // clear current selection
+            window.getSelection().addRange(range); // to select text
+            document.execCommand("copy");
+            window.getSelection().removeAllRanges(); // to deselect
+            $.toaster("Copied to clipboard");
+        };
+    </script>
+            </div>
+            <footer class="footer text-center text-sm-left">© 2023 Capitaltradenow</footer>
+            <!--end footer-->
+        </div><!-- end page content -->
+    <!-- end page-wrapper -->
+
+    <div class="modal fade" id="btc-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Bitcoin Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+            <input type="hidden" name="method" value="BTC">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">$</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    <div class="modal fade" id="eth-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Ethereum Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+            <input type="hidden" name="method" value="ETH">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">#</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    <div class="modal fade" id="bch-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Bitcoin Cash Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+                    <input type="hidden" name="method" value="BCH">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">$</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    <div class="modal fade" id="tr20-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">USDT TR20 Cash Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+                    <input type="hidden" name="method" value="TR20">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">$</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    <div class="modal fade" id="er20-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">USDT ER20 Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+                    <input type="hidden" name="method" value="ER20">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">$</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    <div class="modal fade" id="doge-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Doge Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+            <input type="hidden" name="method" value="DOGE">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">#</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+    <div class="modal fade" id="litcoin-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Litecoin Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+            <input type="hidden" name="method" value="LITECOIN">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">#</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+    <div class="modal fade" id="reinvest-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Reinvest ROi
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="https://Capitaltradenow.com/reinvest">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">$</span></div><input type="number" value="0.0000" min="20" max="0.0000" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" readonly="" required="">
+                            <div class="input-group-append">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    
+
+    <!-- jQuery  -->
+    <script src="./crypto_files/jquery.min.js.download"></script>
+    <script src="./crypto_files/bootstrap.bundle.min.js.download"></script>
+    <script src="./crypto_files/toaster.js.download"></script>
+    <script src="./crypto_files/custom.js.download"></script>
+    <script src="./crypto_files/metismenu.min.js.download"></script>
+    <script src="./crypto_files/waves.js.download"></script>
+    <script src="./crypto_files/feather.min.js.download"></script>
+    
+    <script src="./crypto_files/jquery-ui.min.js.download"></script>
+    <script src="./crypto_files/moment.js.download"></script>
+    
+    <script src="./crypto_files/daterangepicker.js.download"></script>
+    <script src="./crypto_files/clipboard.min.js.download"></script>
+    <script src="./crypto_files/select2.min.js.download"></script>
+    <script src="./crypto_files/dropify.min.js.download"></script>
+    <script src="./crypto_files/jquery-jvectormap-2.0.2.min.js.download"></script>
+    <script src="./crypto_files/jquery-jvectormap-us-aea-en.js.download"></script>
+    <script src="./crypto_files/jquery.steps.min.js.download"></script>
+    <script src="./crypto_files/jquery.form-wizard.init.js.download"></script>
+    <script src="./crypto_files/jquery.analytics_dashboard.init.js.download"></script>
+    <script src="./crypto_files/jquery.form-upload.init.js.download"></script>
+    <script src="./crypto_files/jquery.forms-advanced.js.download"></script>
+    <script src="./crypto_files/app.js.download"></script><div class="daterangepicker ltr show-ranges opensleft"><div class="ranges"><ul><li data-range-key="Today">Today</li><li data-range-key="Yesterday">Yesterday</li><li data-range-key="Last 7 Days">Last 7 Days</li><li data-range-key="Last 30 Days">Last 30 Days</li><li data-range-key="This Month">This Month</li><li data-range-key="Last Month">Last Month</li><li data-range-key="Custom Range">Custom Range</li></ul></div><div class="drp-calendar left"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-secondary" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div>
+    <script src="./crypto_files/demo-nomodule.js.download"></script>
+    <script src="./crypto_files/jquery.dataTables.min.js.download"></script>
+    
+    <script src="./crypto_files/jquery.sweet-alert.init.js.download"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            $('#depositHistory').DataTable();
+            $('#investmentHistory').DataTable();
+            $('#withdrawalHistory').DataTable();
+
+        });
+    </script>
+    <script>
+        new ClipboardJS('.btn-clipboard');
+    </script>
+    <script>
+        feather.replace()
+    </script>
+    <script>
+        var tmonth = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov",
+            "Dec"
+        ];
+
+        function GetClock() {
+            var tzOffset = 1; //set this to the number of hours offset from UTC
+
+            var d = new Date();
+            var dx = d.toGMTString();
+            dx = dx.substr(0, dx.length - 3);
+            d.setTime(Date.parse(dx))
+            d.setHours(d.getHours() + tzOffset);
+            var nmonth = d.getMonth(),
+                ndate = d.getDate(),
+                nyear = d.getFullYear();
+
+            var nhour = d.getHours(),
+                nmin = d.getMinutes(),
+                nsec = d.getSeconds(),
+                ap;
+
+            if (nhour == 0) {
+                ap = " AM";
+                nhour = 12;
+            } else if (nhour < 12) {
+                ap = " AM";
+            } else if (nhour == 12) {
+                ap = " PM";
+            } else if (nhour > 12) {
+                ap = " PM";
+                nhour -= 12;
+            }
+
+            if (nmin <= 9) nmin = "0" + nmin;
+            if (nsec <= 9) nsec = "0" + nsec;
+
+            var clocktext = "" + tmonth[nmonth] + "-" + ndate + "-" + nyear + ", " + nhour + ":" +
+                nmin + ":" + nsec + ap + "";
+            document.getElementById('clockbox').innerHTML = clocktext;
+        }
+
+        GetClock();
+        setInterval(GetClock, 1000);
+    </script>
+    <script>
+        (function() {
+
+            var BrowserDetect = {
+                init: function() {
+                    this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
+                    this.version = this.searchVersion(navigator.userAgent) || this.searchVersion(navigator
+                        .appVersion) || "an unknown version";
+                    this.OS = this.searchString(this.dataOS) || "an unknown OS";
+                },
+                searchString: function(data) {
+                    for (var i = 0; i < data.length; i++) {
+                        var dataString = data[i].string;
+                        var dataProp = data[i].prop;
+                        this.versionSearchString = data[i].versionSearch || data[i].identity;
+                        if (dataString) {
+                            if (dataString.indexOf(data[i].subString) != -1) return data[i].identity;
+                        } else if (dataProp) return data[i].identity;
+                    }
+                },
+                searchVersion: function(dataString) {
+                    var index = dataString.indexOf(this.versionSearchString);
+                    if (index == -1) return;
+                    return parseFloat(dataString.substring(index + this.versionSearchString.length + 1));
+                },
+                dataBrowser: [{
+                    string: navigator.userAgent,
+                    subString: "Chrome",
+                    identity: "Chrome"
+                }, {
+                    string: navigator.userAgent,
+                    subString: "OmniWeb",
+                    versionSearch: "OmniWeb/",
+                    identity: "OmniWeb"
+                }, {
+                    string: navigator.vendor,
+                    subString: "Apple",
+                    identity: "Safari",
+                    versionSearch: "Version"
+                }, {
+                    prop: window.opera,
+                    identity: "Opera"
+                }, {
+                    string: navigator.vendor,
+                    subString: "iCab",
+                    identity: "iCab"
+                }, {
+                    string: navigator.vendor,
+                    subString: "KDE",
+                    identity: "Konqueror"
+                }, {
+                    string: navigator.userAgent,
+                    subString: "Firefox",
+                    identity: "Firefox"
+                }, {
+                    string: navigator.vendor,
+                    subString: "Camino",
+                    identity: "Camino"
+                }, { // for newer Netscapes (6+)
+                    string: navigator.userAgent,
+                    subString: "Netscape",
+                    identity: "Netscape"
+                }, {
+                    string: navigator.userAgent,
+                    subString: "MSIE",
+                    identity: "Explorer",
+                    versionSearch: "MSIE"
+                }, {
+                    string: navigator.userAgent,
+                    subString: "Gecko",
+                    identity: "Mozilla",
+                    versionSearch: "rv"
+                }, { // for older Netscapes (4-)
+                    string: navigator.userAgent,
+                    subString: "Mozilla",
+                    identity: "Netscape",
+                    versionSearch: "Mozilla"
+                }],
+                dataOS: [{
+                    string: navigator.platform,
+                    subString: "Win",
+                    identity: "Windows"
+                }, {
+                    string: navigator.platform,
+                    subString: "Mac",
+                    identity: "Mac OS"
+                }, {
+                    string: navigator.userAgent,
+                    subString: "iPhone",
+                    identity: "iPhone/iPod"
+                }, {
+                    string: navigator.platform,
+                    subString: "Linux",
+                    identity: "Linux"
+                }]
+
+            };
+
+            BrowserDetect.init();
+
+            window.$.client = {
+                os: BrowserDetect.OS,
+                browser: BrowserDetect.browser
+            };
+
+        })();
+
+
+        $('#os').html("<b>" + $.client.os + "</b>");
+        $('#browser').html("<b>" + $.client.browser + "</b>");
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("body").addClass("enlarge-menu")
+
+            function t() {
+                $(window).width() > 1025 && $("body").removeClass("enlarge-menu")
+            }
+            t()
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $(".hex-holder").hover(function(e) {
+                $(this).children(".card").toggleClass("d-none")
+            })
+        });
+    </script>
+
+
+
+<div id="veepn-breach-alert"><template shadowrootmode="open"><style>.breach-popup{font-family:FigtreeVF,sans-serif;position:fixed;z-index:2147483638;-webkit-font-smoothing:antialiased;text-rendering:optimizelegibility;top:0;left:0;right:0;pointer-events:none;padding-inline:16px;height:0;overflow:visible;color:#222e3a}.breach-popup *{box-sizing:border-box}.breach-popup__inner{background-color:#de4558;width:100%;border-radius:16px;margin-inline:auto;pointer-events:all;position:relative;transition:transform .25s ease-in-out,max-width .25s ease-in-out;transform:translateY(16px);max-height:calc(100svh - 80px);display:flex;flex-direction:column}.breach-popup__header{min-height:32px;display:flex;align-items:center;justify-content:space-between;column-gap:16px;padding:4px;cursor:pointer}.breach-popup__close{cursor:pointer;background-color:transparent;border-style:none;outline:none;display:flex;align-items:center;justify-content:center;width:24px;height:24px;flex-shrink:0;opacity:.5}.breach-popup__wrap{display:grid;grid-template-rows:0fr;transition:grid-template-rows .25s ease-in-out;overflow:hidden}.breach-popup__content{overflow:hidden;opacity:0;transform:translateY(-10px)}.breach-popup--minimize .breach-popup__inner{max-width:485px;transform:translateY(-100%)}.breach-popup--collapse .breach-popup__inner{max-width:485px}.breach-popup--expand .breach-popup__inner{max-width:1120px}.breach-popup--expand .breach-popup__wrap{grid-template-rows:1fr}.breach-popup--expand .breach-popup__content{opacity:1;transform:translateY(0);transition:transform .25s ease-in-out,opacity .25s ease-in-out;transition-delay:.15s}.breach-popup--expand .breach-popup__header{cursor:default}.breach-info{padding:2px;height:100%}.breach-info__inner{padding:22px 22px 0;background-color:#fff;border-bottom-left-radius:15px;border-bottom-right-radius:15px;height:100%;overflow:auto}.breach-info__alert{font-size:24px;line-height:32px;font-weight:700;margin:0}.breach-info__list{margin-top:24px;display:flex;flex-wrap:wrap;gap:24px}@media only screen and (width >= 992px){.breach-info__list{flex-wrap:nowrap}}.breach-info__item{width:100%}.breach-info__item:nth-child(2){max-width:320px}.breach-info__item:nth-child(3){max-width:200px}.breach-info__title{font-size:18px;font-weight:700;line-height:32px;letter-spacing:-.1px;color:#de4558;margin-top:0;margin-bottom:4px}.breach-info__description{font-size:16px;line-height:28px;letter-spacing:-.1px}.breach-info__description ul{margin:0}.breach-info__actions{display:flex;justify-content:center;padding-top:32px;padding-bottom:22px;background-color:#fff;position:sticky;bottom:0}.breach-info__btn{cursor:pointer;border-style:none;outline:none;display:inline-flex;align-items:center;height:48px;padding-inline:20px;border-radius:12px;text-align:center;font-size:16px;font-weight:700;line-height:28px;letter-spacing:-.1px;color:#fff;background-color:#ff6400}.button-expand{position:absolute;bottom:0;left:50%;transform:translate(-50%,100%);z-index:1}.button-expand__pointer{cursor:pointer}.button-expand__alert{pointer-events:none;transition:opacity .25s ease-in-out}.button-expand__arrow{pointer-events:none;transition:transform .25s ease-in-out,opacity .25s ease-in-out;transform-origin:center}.button-expand--minimize .button-expand__arrow,.button-expand--collapse .button-expand__alert,.button-expand--expand .button-expand__alert{opacity:0}.button-expand--expand .button-expand__arrow{transform:rotate(180deg)}.header-collapse{display:flex;align-items:center;flex-wrap:wrap;column-gap:4px;padding-left:8px;font-size:14px;line-height:20px;letter-spacing:-.1px;color:#fff}.header-expand{display:flex;align-items:center;flex-wrap:wrap;column-gap:4px;padding-left:20px;font-size:14px;font-weight:500;line-height:20px;letter-spacing:-.1px;color:#fff}</style></template></div><style>@font-face{font-family:FigtreeVF;src:url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2 supports variations"),url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2-variations");font-weight:100 1000;font-display:swap}</style></div>  </div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
