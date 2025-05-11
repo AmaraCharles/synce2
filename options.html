@@ -32,6 +32,8 @@
             <link rel="preload"
                 href="https://wbstatic.webullfintech.com/v1/webull-us-g/assets/d750140855fa4e2cda6c93c60230e88c.png"
                 as="image">
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
             <link rel="dns-prefetch" href="//trade.webullfintech.com">
             <link rel="dns-prefetch" href="//quotes-gw.webullfintech.com">
             <link rel="stylesheet" href="./styles/style.css">
@@ -65,27 +67,19 @@
     <body>
 
         <div class="boxed_wrapper">
-            <!-- main header -->
             <header class="main-header">
-                <!-- hhh-top -->
-                <div class="hhh-top">
-                    <div class="outer-container">
 
-
-                    </div>
-                </div>
-                <!-- header-lower -->
                 <div class="header-lower">
                     <div class="outer-container">
                         <div class="outer-box" style="background-color: #fff">
                             <div class="menu-area">
                                 <div class="logo-box">
                                     <figure class="logo"><a href="index.html"><img src="./images/6735sb46fh55.png"
-                                                alt="Aston" style="width:158px;height:42px"></a></figure>
+                                                alt="Aston" style="height:42px"></a></figure>
                                 </div>
-                                <!--Mobile Navigation Toggler-->
-                                <!-- <div class="btn-box "><a href="investments.html" class="theme-btn text-small  d-lg-none d-md-none"><span>PLANS</span></a></div> -->
-                                <div class="mobile-nav-toggler" style="margin-left:90px ;">
+
+
+                                <div class="mobile-nav-toggler">
                                     <i class="icon-bar" style="background:rgb(3, 70, 142)"></i>
                                     <i class="icon-bar" style="background:rgb(3, 70, 142)"></i>
                                     <i class="icon-bar" style="background:rgb(3, 70, 142)"></i>
@@ -117,72 +111,64 @@
                                             <li><a href="./plans.html">Our Plans</a></li>
                                             <li><a href="about.html">About Us</a></li>
                                             <li>
-                                                <div id="google_translate_element"></div>
+                                                <a href="login.html">Client Portal<i
+                                                        class="flaticon-right-down"></i></a>
                                             </li>
                                         </ul>
                                     </div>
                                 </nav>
-                            </div>
-                            <div class="menu-right-content">
-                                <div class="search-box-outer search-toggler"><i class="flaticon-search"></i></div>
-                                <div class="clients-box">
 
-                                    <a href="login.html">Client Portal<i class="flaticon-right-down"></i></a>
-                                </div>
-                                <!-- <div class="btn-box"><a href="register.html"
-                                        class="inline-flex justify-center rounded border-2 p-3 py-2 text-lg outline-2 outline-offset-2 motion-safe:transition-colors font-semibold border-transparent bg-tiger text-white hover:bg-[#e67021] active:bg-[#d15907] active:text-white/80 my-4 w-40 min-w-fit "><span>Register</span></a>
-                                </div> -->
+
                             </div>
+
                         </div>
                     </div>
                 </div>
 
-                <!--sticky Header-->
+
                 <div class="sticky-header">
                     <div class="outer-container">
-                        <div class="outer-box" style="background-color: #fff">
+                        <div class="outer-box">
                             <div class="menu-area">
                                 <div class="logo-box">
                                     <figure class="logo"><a href="index.html"><img src="./images/6735sb46fh55.png"
                                                 alt="" style="width:158px;height:42px"></a></figure>
                                 </div>
                                 <nav class="main-menu clearfix">
-                                    <!--Keep This Empty / Menu will come through Javascript-->
+
                                 </nav>
                             </div>
                             <div class="menu-right-content">
-                                <!-- <div class="search-box-outer search-toggler"><i class="flaticon-search"></i></div> -->
                                 <div class="clients-box">
                                     <div class="icon-box"><img src="./assets/images/icons/icon-6.png" alt=""></div>
                                     <a href="login.html">Client Portal<i class="flaticon-right-down"></i></a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </header>
-            <!-- main-header end -->
 
-            <!-- Mobile Menu  -->
             <div class="mobile-menu" style="background-color: rgb(3, 70, 142)">
                 <div class="menu-backdrop"></div>
-                <div class="close-btn"><i class="fas fa-times"></i></div>
+                <div class="close-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path
+                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                            fill="white" />
+                    </svg>
+                </div>
 
                 <nav class="menu-box" style="background-color: rgb(3, 70, 142)">
-                    <div class="nav-logo"><a href="index.html"><img src="./assets/images/logo.png" alt="" title=""></a>
+                    <div class="nav-logo"><a href="#">
+
                     </div>
                     <div class="menu-outer">
-                        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                     </div>
                     <div class="contact-info">
                         <h4>Contact Info</h4>
                         <ul>
-                            <li><a href="mailto:support@Capitaltradenow.com">support@Capitaltradenow.com</a></li>
-
-                            <!-- <li>Chicago 12, Melborne City, USA</li>
-                                        <li><a href="tel:+8801682648101">+88 01682648101</a></li> -->
-
+                            <li><a href="mailto:support@Syncextrade.com">support@syncextrade.com</a></li>
                         </ul>
                     </div>
                     <div class="social-links">
@@ -191,8 +177,6 @@
                     </div>
                 </nav>
             </div>
-
-
             <!-- page-title -->
             <section class="page-title centred">
                 <div class="bg-layer" style="background-image: url(./assets/images/page-title.jpg);"></div>
@@ -230,7 +214,7 @@
                                         </div>
                                         <div class="image-box">
                                             <figure class="image"><img src="./assets/images/options.jpg"
-                                                    alt="Capitaltradenow">
+                                                    alt="Syncextrade">
                                             </figure>
 
                                         </div>
@@ -239,7 +223,7 @@
                                 <div class="content-one">
                                     <p><span>I</span> n the ever-evolving landscape of financial markets, options
                                         trading has emerged as a powerful tool for investors seeking to manage risk,
-                                        enhance returns, and capitalize on market opportunities.Capitaltradenow is
+                                        enhance returns, and capitalize on market opportunities.Syncextrade is
                                         dedicated to empowering investors with the knowledge needed to navigate the
                                         world of options trading. </p>
                                     <p>In this comprehensive guide, we delve into the fundamentals, strategies, and
@@ -256,7 +240,7 @@
                                         <div class="icon-box"><img src="./assets/images/icons/icon-83.png" alt=""></div>
                                         <h3> options trading has emerged as a powerful tool for investors seeking to
                                             manage risk, enhance returns, and capitalize on market opportunities. </h3>
-                                        <h6>Capitaltradenow</h6>
+                                        <h6>Syncextrade</h6>
                                     </blockquote>
                                     <p> </p>
                                 </div>
@@ -298,7 +282,7 @@
 
                                     <h3>HowCapitaltradenow Supports Option Trading: </h3>
                                     <p>
-                                    <h4>Advanced Trading Platform:</h4>Capitaltradenow provides a sophisticated trading
+                                    <h4>Advanced Trading Platform:</h4>Syncextrade provides a sophisticated trading
                                     platform with real-time market data, charting tools, and advanced analytics to
                                     facilitate informed decision-making.
 
@@ -344,72 +328,60 @@
             <footer class="csr137 csr135" id="root">
                 <div class="csr139">
                     <div class="row csr138 csr147">
-                        <div class="col"><a class="csr143 csr151" role="heading" aria-level="3"
-                                aria-label="Syncextrade Products" href="https://www.webull.com/trading-investing"
-                                target="_blank" rel="noreferrer">Syncextrade
-                                Products</a><a class="csr144 csr152"
-                                href="https://www.webull.com/trading-investing/futures" target="_blank"
-                                rel="noreferrer">Futures</a><a class="csr144 csr152"
-                                href="https://www.webull.com/trading-investing/options" target="_blank"
-                                rel="noreferrer">Options</a><a class="csr144 csr152"
-                                href="https://www.webull.com/trading-investing/stocks" target="_blank"
-                                rel="noreferrer">Stocks
+                        <div class="col">
+                            <a class="csr143 csr151" role="heading" aria-level="3" aria-label="Syncextrade Products"
+                                href="#" target="_blank" rel="noreferrer">Syncextrade
+                                Products</a>
+                            <a class="csr144 csr152" href="./market.html" target="_blank" rel="noreferrer">Markets</a>
+                            <a class="csr144 csr152" href="./stocks.html" target="_blank" rel="noreferrer">Stocks</a>
+                            <a class="csr144 csr152" href="./copy.html" target="_blank" rel="noreferrer">Copy Trading
                                 &amp;
-                                Fractional Shares</a><a class="csr144 csr152"
-                                href="https://www.webull.com/trading-investing/etfs" target="_blank"
-                                rel="noreferrer">ETFs</a><a class="csr144 csr152"
-                                href="https://www.webull.com/trading-investing/overnight-trading" target="_blank"
-                                rel="noreferrer">Overnight Trading</a><a class="csr144 csr152"
-                                href="https://www.webull.com/trading-investing/fixed-income/us-treasuries"
-                                target="_blank" rel="noreferrer">Fixed income: US Treasuries</a><a class="csr144 csr152"
-                                href="https://www.webull.com/learn" target="_blank" rel="noreferrer">Learn</a></div>
+                                Fractional Shares</a><a class="csr144 csr152" href="./estate.html" target="_blank"
+                                rel="noreferrer">Estate Planning</a><a class="csr144 csr152" href="./retirement.html"
+                                target="_blank" rel="noreferrer">Retirement Planning</a><a class="csr144 csr152"
+                                href="./financial.html" target="_blank" rel="noreferrer">Financial Planning</a>
+
+                        </div>
                         <div class="col"><a class="csr143 csr151" role="heading" aria-level="3"
-                                aria-label="About Syncextrade" href="https://www.webull.com/about" target="_blank"
-                                rel="noreferrer">About Syncextrade</a><a class="csr144 csr152"
-                                href="https://www.webull.com/careers" rel="nofollow noreferrer" target="_blank"
-                                aria-label="Careers">Careers</a><a class="csr144 csr152"
-                                href="https://www.webull.com/execution" rel="nofollow noreferrer" target="_blank"
-                                aria-label="Our Execution Quality">Our Execution Quality</a><a class="csr144 csr152"
-                                href="https://brokercheck.finra.org/firm/summary/289063" rel="nofollow noreferrer"
-                                target="_blank" aria-label="BrokerCheck">BrokerCheck</a><a class="csr144 csr152"
-                                href="https://www.webull.com/pricing" rel="nofollow noreferrer" target="_blank"
-                                aria-label="Pricing">Pricing</a><a class="csr144 csr152"
-                                href="https://www.webull.com/blog" rel="nofollow noreferrer" target="_blank"
-                                aria-label="Blog">Blog</a><a class="csr144 csr152"
-                                href="https://www.webull.com/help/faq/10782-Script-Editor" rel="nofollow noreferrer"
-                                target="_blank" aria-label="Script Editor">Script Editor</a></div>
+                                aria-label="About Syncextrade" href="#" target="_blank" rel="noreferrer">About
+                                Syncextrade</a><a class="csr144 csr152" href="./about.html" rel="nofollow noreferrer"
+                                target="_blank" aria-label="Careers">About Us</a>
+
+                            <a class="csr144 csr152" href="./plans.html" rel="nofollow noreferrer" target="_blank"
+                                aria-label="Blog">Plans</a>
+                        </div>
+
+
                         <div class="col"><a class="csr143 csr151" role="heading" aria-level="3" aria-label="FAQ"
-                                href="https://www.webull.com/help" target="_blank" rel="noreferrer">FAQs</a><a
-                                class="csr144 csr152" href=" https://www.webull.com/help/category/42" target="_blank"
-                                rel="noreferrer">Account &amp;
-                                Client Portal</a><a class="csr144 csr152"
-                                href=" https://www.webull.com/help/category/53" target="_blank"
-                                rel="noreferrer">Retirement</a><a class="csr144 csr152"
-                                href=" https://www.webull.com/help/category/51" target="_blank"
-                                rel="noreferrer">Documents &amp;
-                                Taxes</a></div>
+                                href="#" target="_blank" rel="noreferrer">FAQs</a><a class="csr144 csr152"
+                                href="login.html" target="_blank" rel="noreferrer">Account &amp;
+                                Client Portal</a>
+                            <a class="csr144 csr152" href="./retirement.html" target="_blank"
+                                rel="noreferrer">Retirement</a>
+
+                        </div>
                         <div class="col">
                             <p class="csr143 csr151" role="heading" aria-level="3" aria-label="Terms Conditions">Terms
                                 &amp;
-                                Conditions</p><a class="csr144 csr152"
-                                href="https://www.webull.com/protocol/webull_financial_privacy_policy"
-                                rel="nofollow noreferrer" target="_blank" aria-label="Read our privacy policy">Privacy
-                                Policy</a><a class="csr144 csr152"
-                                href="https://www.webull.com/policy?code=CONTINUITY01" rel="nofollow noreferrer"
-                                target="_blank" aria-label="Read our business continuity plan disclosure">Business
-                                Continuity Plan</a><a class="csr144 csr152" href="https://www.webull.com/policy"
-                                rel="nofollow noreferrer" target="_blank"
+                                Conditions</p>
+                            <a class="csr144 csr152" href="./privacy.html" rel="nofollow noreferrer" target="_blank"
+                                aria-label="Read our privacy policy">Privacy Policy</a>
+
+                            <!-- <a class="csr144 csr152"
+                                href="https://www.webull.com/policy?code=CONTINUITY01" rel="nofollow noreferrer" target="_blank"
+                                aria-label="Read our business continuity plan disclosure">Business Continuity Plan</a><a
+                                class="csr144 csr152" href="https://www.webull.com/policy" rel="nofollow noreferrer"
+                                target="_blank"
                                 aria-label="Check all Syncextrade's agreements and disclosures">Disclosures</a><a
                                 class="csr144 csr152" href="https://www.webull.com/policy?code=DATA_DISCLAIMER"
-                                rel="nofollow noreferrer" target="_blank"
-                                aria-label="Read our market data disclaimer">Data
-                                Disclaimer</a>
+                                rel="nofollow noreferrer" target="_blank" aria-label="Read our market data disclaimer">Data
+                                Disclaimer</a> -->
                         </div>
                         <div class="col">
                             <p class="csr143 csr151" role="heading" aria-level="3" aria-label="Contact us">Contact us
-                            </p><a class="csr144 csr152" href="mailto:support@webull.com" rel="nofollow noreferrer"
+                            </p><a class="csr144 csr152" href="mailto:support@syncextrade.com" rel="nofollow noreferrer"
                                 role="link" target="_blank"
-                                aria-label="send an email to Syncextrade customer service team">support@syncextradecom</a><a
+                                aria-label="send an email to Syncextrade customer service team">support@syncextrade.com</a><a
                                 class="csr144 csr152" href="tel:+1 (888) 828-0618" rel="nofollow noreferrer" role="link"
                                 target="_blank" aria-label="call our customer service">+1 (888) 828-0618</a>
                             <div class="csr140 csr148"><span><svg xmlns="http://www.w3.org/2000/svg"
@@ -733,8 +705,7 @@
                             system
                             availability may delay account access and trade executions.</p>
                         <p>Free trading of stocks, ETFs, and options refers to $0 commissions for
-                            Syncextrade&nbsp;Financial
-                            LLC
+                            Syncextrade&nbsp;Financial LLC
                             self-directed individual cash or margin brokerage accounts and IRAs that trade U.S. listed
                             securities
                             via mobile devices, desktop&nbsp;or website products. A $0.55 per contract fee applies for
@@ -777,6 +748,7 @@
                             target="_blank" rel="nofollow noopener noreferrer">NFA</a></div>
                 </div>
             </footer>
+
 
             <!-- scroll to top -->
             <button class="scroll-top scroll-to-target" data-target="php">

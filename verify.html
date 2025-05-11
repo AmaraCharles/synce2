@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify email</title>
+    <link href="https://www.orbitaloptions.com/orbitaloptions.com/orbitaloptions.com/img/favicon.png"
+        rel="shortcut icon" type="image/x-icon">
+    <link href="https://www.orbitaloptions.com/orbitaloptions.com/orbitaloptions.com/img/favicon.png"
+        rel="apple-touch-icon">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1122.0" data-gr-ext-installed="">
+
+    <style>
+        body {
+            font-size: larger;
+        }
+
+        .container {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* height: 100vh; */
+            margin: 0 auto;
+
+        }
+
+        .container p {
+            color: rgb(34, 168, 85);
+
+        }
+
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <div class="container">
+        <span id="verification"><i>Verification in progress. Please wait...</i></span><br>
+
+    </div>
+
+    <script>
+        function redirect() {
+            location.href = 'login.html'
+        }
+        function verifying() {
+            var verification = $('#verification').html
+            var gotten = 'Your Account has been verified!'
+            $('#verification').html(gotten)
+            setTimeout(redirect, 2000)
+
+        }
+        $(document).ready(function () {
+
+
+            setTimeout(verifying, 5000)
+
+        })
+    </script>
+    <script src="./verifyfiles/g1qh4v3lqj2diacp15oaz6wfcqkp8yd9.js.download" async=""></script>
+    </div>
+
+</body>
+
+</html>
