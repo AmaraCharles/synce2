@@ -10616,8 +10616,8 @@
               label: "send an email to Syncextrade customer service team",
             },
             {
-              link: "tel:+1 (888) 828-0618",
-              text: "+1 (888) 828-0618",
+              link: "tel:+1(607)2029084",
+              text: "+1(607)2029084",
               label: "call our customer service",
             },
           ],
