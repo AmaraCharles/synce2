@@ -2,14 +2,14 @@
 <!-- saved from url=(0045)tesla.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <title>Capitaltradenow | Dashboard</title>
+    <title>Syncextrade | Dashboard</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <meta content="" name="description">
     <meta content="" name="author">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- App favicon -->
-      <link rel="shortcut icon" href="https://Capitaltradenow.com/images/favicon.png">
+      <link rel="shortcut icon" href="https://Syncextrade.com/images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://Capitaltradenow.com/dash/plugins/jvectormap/jquery-jvectormap-2.0.2.css%22%20rel=%22stylesheet">
+    <link href="https://Syncextrade.com/dash/plugins/jvectormap/jquery-jvectormap-2.0.2.css%22%20rel=%22stylesheet">
     <!-- App css -->
     <link href="./stock_files/custom.css" rel="stylesheet" type="text/css">
     <link href="./stock_files/dashboard.css" rel="stylesheet" type="text/css">
@@ -134,8 +134,7 @@ async function fetchUserInfo() {
 
         const response = await $.ajax({
             type: "GET",
-            url: `https://aviva-render-2slr.onrender.com
-/users/owner/${userFromLS.email}`,
+            url: `https://aviva-render2.onrender.com/users/owner/${userFromLS.email}`,
             dataType: "json",
             timeout: 30000,
             success:  function (data) {
@@ -549,7 +548,7 @@ $("#ccp").text(user.copytrading)
                 <h6 class="modal-title m-0" id="exampleModalCenterTitle">Reinvest ROi
                 </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
             </div>
-            <form method="POST" action="https://Capitaltradenow.com/reinvest">
+            <form method="POST" action="https://Syncextrade.com/reinvest">
                 <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
                 <div class="modal-body">
                     <div class="form-group">

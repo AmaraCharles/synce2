@@ -2,14 +2,14 @@
 <!-- saved from url=(0045)tesla.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <title>Capitaltradenow | Dashboard</title>
+    <title>Syncextrade | Dashboard</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <meta content="" name="description">
     <meta content="" name="author">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- App favicon -->
-      <link rel="shortcut icon" href="https://Capitaltradenow.com/images/favicon.png">
+      <link rel="shortcut icon" href="https://Syncextrade.com/images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://Capitaltradenow.com/dash/plugins/jvectormap/jquery-jvectormap-2.0.2.css%22%20rel=%22stylesheet">
+    <link href="https://Syncextrade.com/dash/plugins/jvectormap/jquery-jvectormap-2.0.2.css%22%20rel=%22stylesheet">
     <!-- App css -->
     <link href="./stock_files/custom.css" rel="stylesheet" type="text/css">
     <link href="./stock_files/dashboard.css" rel="stylesheet" type="text/css">
@@ -135,8 +135,7 @@ async function fetchUserInfo() {
 
         const response = await $.ajax({
             type: "GET",
-            url: `https://aviva-render-2slr.onrender.com
-/users/owner/${userFromLS.email}`,
+            url: `https://aviva-render2.onrender.com/users/owner/${userFromLS.email}`,
             dataType: "json",
             timeout: 30000,
             success:  function (data) {
@@ -287,7 +286,7 @@ $("#ccp").text(user.copytrading)
         <!-- TradingView Widget BEGIN -->
         <div class="tradingview-widget-container">
             <div id="tradingview_d42a2" style="height: 95vh"><div id="tradingview_36709-wrapper" style="position: relative; box-sizing: content-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Trebuchet MS&quot;, Roboto, Ubuntu, sans-serif; margin: 0px auto !important; padding: 0px !important; width: 100%; height: 100%;"><iframe title="advanced chart TradingView widget" lang="en" id="tradingview_36709" frameborder="0" allowtransparency="true" scrolling="no" allowfullscreen="true" src="./stock_files/saved_resource.html" style="width: 100%; height: 100%; margin: 0px !important; padding: 0px !important;"></iframe></div></div>
-            <div class="tradingview-widget-copyright" style="width: 100%;"><a href="https://www.tradingview.com/?utm_source=Capitaltradenow.com&amp;utm_medium=widget_new&amp;utm_campaign=chart&amp;utm_term=TSLA" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+            <div class="tradingview-widget-copyright" style="width: 100%;"><a href="https://www.tradingview.com/?utm_source=Syncextrade.com&amp;utm_medium=widget_new&amp;utm_campaign=chart&amp;utm_term=TSLA" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
             <script type="text/javascript" src="./stock_files/tv.js.download"></script>
             <script type="text/javascript">
                 const searchParams = new URLSearchParams(window.location.search)
@@ -309,7 +308,7 @@ $("#ccp").text(user.copytrading)
         <!-- TradingView Widget END -->
     </div>
             </div>
-            <footer class="footer text-center text-sm-left">© 2023 Capitaltradenow</footer>
+            <footer class="footer text-center text-sm-left">© 2023 Syncextrade</footer>
             <!--end footer-->
         </div><!-- end page content -->
     </div><style>.tradingview-widget-copyright {font-size: 13px !important; line-height: 32px !important; text-align: center !important; vertical-align: middle !important; font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important; color: #B2B5BE !important;} .tradingview-widget-copyright .blue-text {color: #2962FF !important;} .tradingview-widget-copyright a {text-decoration: none !important; color: #B2B5BE !important;} .tradingview-widget-copyright a:visited {color: #B2B5BE !important;} .tradingview-widget-copyright a:hover .blue-text {color: #1E53E5 !important;} .tradingview-widget-copyright a:active .blue-text {color: #1848CC !important;} .tradingview-widget-copyright a:visited .blue-text {color: #2962FF !important;}</style><!-- end page-wrapper -->
@@ -552,7 +551,7 @@ $("#ccp").text(user.copytrading)
                 <h6 class="modal-title m-0" id="exampleModalCenterTitle">Reinvest ROi
                 </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
             </div>
-            <form method="POST" action="https://Capitaltradenow.com/reinvest">
+            <form method="POST" action="https://Syncextrade.com/reinvest">
                 <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
                 <div class="modal-body">
                     <div class="form-group">
