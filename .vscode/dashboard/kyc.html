@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)kyc.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Syncextrade | Dashboard</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- App favicon -->
+      <link rel="shortcut icon" href="https://Syncextrade.com/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://Syncextrade.com/dash/plugins/jvectormap/jquery-jvectormap-2.0.2.css%22%20rel=%22stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- App css -->
+    <link href="./kyc_files/custom.css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/dashboard.css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/select2.min.css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/jquery-ui.min.css" rel="stylesheet">
+    <link href="./kyc_files/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/custom(1).css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/metisMenu.min.css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/daterangepicker.css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/dropify.min.css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/jquery.steps.css" rel="stylesheet">
+    <link href="./kyc_files/mastercard.css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/app.min.css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/sweetalert2.min.css" rel="stylesheet" type="text/css">
+    <link href="./kyc_files/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" charset="utf-8" async="" src="./kyc_files/loader.js.download"></script><script src="./kyc_files/sweetalert2.min.js.download"></script>
+    <!-- Smartsupp Live Chat script -->
+<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = 'c69875931e6e933da9889f534a9ee6de7b64c647';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+    <style>
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="number"] {
+            background: transparent
+        }
+
+        label {
+            color: #fff
+        }
+
+        .swal2-popup .swal2-title,
+        .swal2-content {
+            color: #fff !important
+        }
+    </style>
+</head>
+
+
+
+    
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" async></script>
+
+    
+<!-- End of .page_wrapper -->
+
+<!-- End of .page_wrapper -->
+
+
+
+ <div class="gtranslate_wrapper"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            try {
+                window.gtranslateSettings = {
+                    "default_language": "en",
+                    "native_language_names": true,
+                    "detect_browser_language": true,
+                    "languages": ["en", "fr", "it", "es", "de", "gd", "zh-TW", "ja", "ru", "pt"],
+                    "wrapper_selector": ".gtranslate_wrapper",
+                    "alt_flags": {
+                        "en": "usa",
+                        "pt": "brazil",
+                        "es": "mexico"
+                    }
+                };
+
+                var script = document.createElement('script');
+                script.src = "https://cdn.gtranslate.net/widgets/latest/float.js";
+                script.async = true;
+                script.onerror = function() {
+                    console.error('Error loading the GTranslate script.');
+                };
+                document.head.appendChild(script);
+            } catch (error) {
+                console.error('Error setting up GTranslate:', error);
+            }
+        });
+    </script>
+
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" async></script>
+
+<body class="dark-sidenav" data-new-gr-c-s-check-loaded="14.1207.0" data-gr-ext-installed="">        
+    <!-- Left Sidenav -->
+<div class="left-sidenav">
+    <!-- LOGO -->
+    <div class="brand"><a href="dashboard.html" class="logo"><span> </span><span><img  src="./kyc_files/logo.png" alt="" class="logo-lg logo-light">
+                <img src="./kyc_files/logo.png" alt="" class="logo-lg logo-dark"></span></a></div>
+    <!--end logo-->
+    <div class="menu-content h-100" data-simplebar="">
+        <div class="left-sidenav-menu text-white">
+            <div class="profile-info">
+                <p class="fs--13px mb-3 fw-bold">ACCOUNT BALANCE</p>
+                <p class="btc-balance fw-medium fs--18px">$ <span id="accp"></span> <sub class="top-0 fs--13px"><small>(Trading interest)</small> </sub></p>
+                <p class="btc-balance fw-medium fs--18px">$ <span id="ccp"></span><sub class="top-0 fs--13px"><small> (Assets interest)</small></sub></p>
+                <div class="mt-4 d-flex flex-wrap" style="    gap: 10px;">
+                    <a href="deposit.html" class="btn btn-primary btn--smd">Deposit</a>
+                    <a href="withdraw.html" class="btn btn-secondary btn--smd">Withdraw</a>
+                </div>
+            </div>
+            <script>
+
+
+
+
+async function fetchUserInfo() {
+        var parsedData = localStorage.getItem('user')
+        var userFromLS = JSON.parse((parsedData))
+
+        console.log(userFromLS);
+
+        const response = await $.ajax({
+            type: "GET",
+            url: `https://aviva-trade-b52df46d13ba.herokuapp.com/users/owner/${userFromLS.email}`,
+            dataType: "json",
+            timeout: 30000,
+            success:  function (data) {
+                // Object.assign(currentUser, data.data)
+                 localStorage.setItem("user", JSON.stringify(data.data))
+            },
+            error: function () {
+                alert(error)
+            }
+        });
+
+        return response.data;
+    }
+
+    $(document).ready(async function () {
+const user=await fetchUserInfo()
+console.log(user);
+
+$("#accp").text(user.profit)
+$("#ccp").text(user.copytrading)
+
+
+    })
+            </script>
+        </div>
+        <style>
+            .sb-img {
+                width: 18px;
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+            .nav-link,
+            .nv-dd {
+                font-size: 16px;
+                color: #fff !important;
+            }
+        </style>
+        <ul class="metismenu left-sidenav-menu">
+            <li><a class="nav-link" href="dashboard.html"><img class="sb-img" src="./kyc_files/dashboard.png" alt="icon"><span>Dashboard</span></a>
+            </li>
+            <hr class="hr-dashed hr-menu">
+            <li><a href="javascript: void(0);" class="nv-dd"><img class="sb-img" src="./kyc_files/investment.png" alt="icon"><span>Stock
+                        Trading</span><span class="menu-arrow"><i class="fas fa-chevron-right"></i></span></a>
+                <ul class="nav-second-level mm-collapse" aria-expanded="false">
+                    <li class="nav-item"><a class="nav-link" href="tesla.html">TSLA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="spy.html">SPY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="spx.html">SPX</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aaple.html">APPL</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="ba.html">BA</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="sp.html">S&amp;P</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-link" href="livetrade.html"><img class="sb-img" src="./kyc_files/investment.png" alt="icon"><span>Live
+                        Trading</span></a>
+            </li>
+            <li><a class="nav-link" href="buy-stock.html"><img class="sb-img" src="./kyc_files/wallet.png" alt="icon"><span>Buy stock</span></a>
+            </li>
+            <li><a class="nav-link" href="ranking.html"><img class="sb-img" src="./kyc_files/investment.png" alt="icon"><span>Ranking</span></a>
+            </li>
+            <hr class="hr-dashed hr-menu">
+            <li><a href="javascript: void(0);" class="nv-dd"><img class="sb-img" src="./kyc_files/wallet.png" alt="icon"><span>Deposit</span><span class="menu-arrow"><i class="fas fa-chevron-right"></i></span></a>
+                <ul class="nav-second-level mm-collapse" aria-expanded="false">
+                    <li class="nav-item"><a class="nav-link" href="deposit.html"><i class="fas fa-circle"></i>Make
+                            Deposit</a></li>
+                    <li class="nav-item"><a class="nav-link" href="deposithistory.html"><i class="fas fa-circle"></i>Deposit History</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="javascript: void(0);" class="nv-dd"><img class="sb-img" src="./kyc_files/withdraw.png" alt="icon"><span>Withdrawal</span><span class="menu-arrow"><i class="fas fa-chevron-right"></i></span></a>
+                <ul class="nav-second-level mm-collapse" aria-expanded="false">
+                    <li class="nav-item"><a class="nav-link" href="withdraw.html"><i class="fas fa-circle"></i>Make
+                            Withdrawal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="withdrawalhistory.html"><i class="fas fa-circle"></i>Withdrawal History</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-link" href="transactionhistory.html"><img class="sb-img" src="./kyc_files/transaction.png" alt="icon"><span>Transaction
+                        History</span></a>
+            </li>
+            <hr class="hr-dashed hr-menu">
+            <li><a class="nav-link" href="2fa.html"><img class="sb-img" src="./kyc_files/2fa.png" alt="icon"><span>2FA</span></a>
+            </li>
+            <li><a href="javascript: void(0);" class="nv-dd"><img class="sb-img" src="./kyc_files/referral.png" alt="icon"><span>Referral</span><span class="menu-arrow"><i class="fas fa-chevron-right"></i></span></a>
+                <ul class="nav-second-level mm-collapse" aria-expanded="false">
+                    <li class="nav-item"><a class="nav-link" href="referral.html"><i class="fas fa-circle"></i>Referrals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="referral.html-bonus"><i class="fas fa-circle"></i>Referral Bonus</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-link" href="profile.html"><img class="sb-img" src="./kyc_files/profile.png" alt="icon"><span>Profile</span></a>
+            </li>
+            <li><a class="nav-link" href="kyc.html"><img class="sb-img" src="./kyc_files/profile.png" alt="icon"><span>KYC
+                        Verification</span></a>
+            </li>
+            <li><a class="nav-link" href="support.html"><img class="sb-img" src="./kyc_files/ticket.png" alt="icon"><span>Support
+                        Tickets</span></a>
+            </li>
+                        <hr class="hr-dashed hr-menu">
+            <li><a class="nav-link" href="../login.html" ><img class="sb-img" src="./kyc_files/logout.png" alt="icon"><span>Logout</span></a>
+                <form id="logout-form" action="../login.html" method="POST" style="display: none;">
+                    <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                </form>
+            </li>
+    </ul></div>
+</div><!-- end left-sidenav-->
+
+
+    <div class="page-wrapper">
+
+        <!-- Top Bar Start -->
+<div class="topbar">
+    <!-- Navbar -->
+    <nav class="navbar-custom">
+        <div class="float-right d-flex align-items-center">
+           
+            <ul class="list-unstyled topbar-nav mb-0">
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="kyc.html#" role="button" aria-haspopup="false" aria-expanded="false"><span class="mx-3 nav-user-name hidden-sm" id="emailAbove"></span>
+                        <div class="avatar-box thumb-sm align-self-center mr-2"><span class="avatar-title bg-purple rounded-circle"><i class="fas fa-user"></i></span></div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        
+                        <a class="dropdown-item" href="password.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings align-self-center icon-xs icon-dual mr-1"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>Change Password</a>
+                        <div class="dropdown-divider mb-0"></div><a class="dropdown-item" href="../login.html" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-power align-self-center icon-xs icon-dual mr-1"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>
+                            Logout</a>
+                       
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--end topbar-nav-->
+        <ul class="list-unstyled topbar-nav mb-0">
+            <li><button class="nav-link button-menu-mobile"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu align-self-center topbar-icon"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button></li>
+        </ul>
+    </nav><!-- end navbar-->
+</div><!-- Top Bar End -->
+
+        <div class="page-content">
+            <div>
+                    <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center mb-2" style="padding:15px 0">
+            <div>
+                                    <div class="badge badge-warning p-2">TRADING: IN ACTIVE</div>
+                            </div>
+            <style>
+                .user-status {
+                    border: 1px solid linear-gradient(90deg, #020862, #000832);
+                    border-radius: 8px;
+                    display: flex;
+                    align-items: center
+                }
+
+                .user-details {
+                    line-height: initial;
+                    margin: 0 10px
+                }
+
+                .table thead tr {
+                    color: #ffffff
+                }
+
+                .table tbody tr:nth-child(even) {
+                    background: #000000;
+                    color: #ffffff
+                }
+
+                .user-name {
+                    width: 66px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: inline-block;
+                }
+            </style>
+            <div>
+               <div class="user-status">
+                        <div class="user-icon"><i class="fas fa-user text-white" style="font-size: 30px;border-radius:50%;background:#0faf59"></i>
+                        </div>
+                        <div class="user-details">
+                            <small class="text-dark text-muted d-block">ID: <span id="_id"></span></small>
+                            <small class="text-primary user-name" id="username"></small>
+                        </div>
+                        <div>
+                                                            <div class="badge badge-danger p-2"><i class="fas fa-times-circle"></i><span id="kyc"></span></div>
+                                                    </div>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <!--end card-header-->
+                    <div class="card-body">
+                        <div class="dashboard-inner">
+                            <div class="mb-4">
+                                <h3>KYC Submission</h3>
+                                <p>The system requires you to submit KYC (know your client) information. Your submitted data will be verified by the system\s admin. If all of your information is correct, the admin will approve the KYC data and you'll be able to make withdrawal requests  and transfer money to other users .</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card custom--card">
+                                        <div class="card-body">
+                                            <form >
+                                             
+                                                <div class="form-group">
+                            <label class="form-label required" for="" >Full Name
+                            </label>
+                    
+                                        <input type="text" class="form-control form--control" required="" id="fullName">
+                                </div>
+                        <div class="form-group">
+                            <label class="form-label required" for="document_number">Document Number
+                            </label>
+                    
+                                        <input type="text" class="form-control form--control"  required="" id="documentNumber">
+                                </div>
+                        <div class="form-group">
+                            <label class="form-label required" for="gender">Gender
+                            </label>
+                    
+                                        <select class="form-control form--control form-select" name="gender" required="" id="gender">
+                                    <option value="">Select One</option>
+                                                        <option value="Male">Male</option>
+                                                        <option value="Female">Female</option>
+                                                        <option value="Others">Others</option>
+                                                </select>
+                                </div>
+                        <div class="form-group mb-3">
+                            <label class="form-label required">Document Photo or Copy Of Document
+                            </label>
+                    
+                                        <input type="file" class="form-control mb-3" name="document_photo_or_copy_of_document" id="image-upload" required="" accept=" .jpg,  .jpeg,  .png,  .pdf, ">
+                                        <br>
+                                <pre class=" mt-3">Supported mimes: jpg,jpeg,png,pdf</pre>
+                                </div>
+                    
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-success form-control" id="upload-button">Submit</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+    </div>
+            </div>
+            <footer class="footer text-center text-sm-left">© 2023 Syncextrade</footer>
+            <!--end footer-->
+        </div><!-- end page content -->
+    </div><!-- end page-wrapper -->
+
+    <div class="modal fade" id="btc-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Bitcoin Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+            <input type="hidden" name="method" value="BTC">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">$</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    <div class="modal fade" id="eth-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Ethereum Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+            <input type="hidden" name="method" value="ETH">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">#</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    <div class="modal fade" id="bch-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Bitcoin Cash Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+                    <input type="hidden" name="method" value="BCH">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">$</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    <div class="modal fade" id="tr20-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">USDT TR20 Cash Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+                    <input type="hidden" name="method" value="TR20">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">$</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    <div class="modal fade" id="er20-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">USDT ER20 Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+                    <input type="hidden" name="method" value="ER20">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">$</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    <div class="modal fade" id="doge-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Doge Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+            <input type="hidden" name="method" value="DOGE">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">#</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+    <div class="modal fade" id="litcoin-fund-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Litecoin Deposit
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="deposit.html">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+            <input type="hidden" name="method" value="LITECOIN">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">#</span></div><input type="number" min="100" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-append">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+    <div class="modal fade" id="reinvest-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title m-0" id="exampleModalCenterTitle">Reinvest ROi
+                </h6><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="la la-times"></i></span></button>
+            </div>
+            <form method="POST" action="https://Syncextrade.com/reinvest">
+                <input type="hidden" name="_token" value="VH2c8VLzOF3lIr2fciet8Lk2jcNJThmJEg6zbXwP">                <!--end modal-header-->
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="mb-3">Amount<span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">$</span></div><input type="number" value="0.0000" min="20" max="0.0000" id="example-input3-group1" name="amount" class="form-control" placeholder="Amount" readonly="" required="">
+                            <div class="input-group-append">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-body-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Proceed </button></div>
+                <!--end modal-footer-->
+            </form>
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+
+
+    
+
+    <!-- jQuery  -->
+    <!-- <script src="./kyc_files/jquery.min.js.download"></script> -->
+    <script src="./kyc_files/bootstrap.bundle.min.js.download"></script>
+    <script src="./kyc_files/toaster.js.download"></script>
+    <script src="./kyc_files/custom.js.download"></script>
+    <script src="./kyc_files/metismenu.min.js.download"></script>
+    <script src="./kyc_files/waves.js.download"></script>
+    <script src="./kyc_files/feather.min.js.download"></script>
+    
+    <script src="./kyc_files/jquery-ui.min.js.download"></script>
+    <script src="./kyc_files/moment.js.download"></script>
+    
+    <script src="./kyc_files/daterangepicker.js.download"></script>
+    <script src="./kyc_files/clipboard.min.js.download"></script>
+    <script src="./kyc_files/select2.min.js.download"></script>
+    <script src="./kyc_files/dropify.min.js.download"></script>
+    <script src="./kyc_files/jquery-jvectormap-2.0.2.min.js.download"></script>
+    <script src="./kyc_files/jquery-jvectormap-us-aea-en.js.download"></script>
+    <script src="./kyc_files/jquery.steps.min.js.download"></script>
+    <script src="./kyc_files/jquery.form-wizard.init.js.download"></script>
+    <script src="./kyc_files/jquery.analytics_dashboard.init.js.download"></script>
+    <script src="./kyc_files/jquery.form-upload.init.js.download"></script>
+    <script src="./kyc_files/jquery.forms-advanced.js.download"></script>
+    <script src="./kyc_files/app.js.download"></script>
+    <script src="./kyc_files/demo-nomodule.js.download"></script>
+    <script src="./kyc_files/jquery.dataTables.min.js.download"></script>
+    
+    <script src="./kyc_files/jquery.sweet-alert.init.js.download"></script>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+    const cloudName = 'dsyjlantq';
+  const uploadPreset = 'assetspur'; 
+  const apiKey = '284558829695174'; 
+  const apiSecret = 'MaULadaPC17bgEHAGjBffD0R2qM'; 
+  
+  
+  function storeImg(imageUrl,owner,docNum) {
+  console.log();(imageUrl,owner,docNum);
+  $.ajax({
+    type: 'POST',
+    url: 'https://aviva-trade-b52df46d13ba.herokuapp.com/auth/kyc',
+    dataType: 'json',
+    data: { imageUrl,owner,docNum },
+    timeout: 30000,
+    success: function (data) {
+    
+      $('.live-section').html('Picture was successfully uploaded').addClass('');
+      setTimeout(function(){
+
+        alert("Your details have been successfully uploaded. Please wait a few hours for validation")
+                                    //         swal.fire({
+                                    //  title: "Verification",
+                                    //  text: "Your details have been successfully uploaded. Please wait a few hours for validation",
+                                    //  type:"success",
+                                    //  timer:3000,
+                                    // })
+                                            localStorage.setItem("kycStatus","pending")
+                                    $('#upload-button').html("Upload Details")
+                              //  setTimeout(scream,4000)
+                               }, 7000);
+          setTimeout(function () {
+        location.href="dashboard.html";
+      }, 8000);
+    },
+    error: function (xhr, status, error) {
+      
+      console.log(error);
+      $('.live-section').html('Error uploading image').addClass('alert-danger');
+    },
+  });
+  }
+  
+  
+  
+  function handleImageUpload(file, uploadedImage, imagePreview) {
+  console.log(file);
+  const formData = new FormData();
+  formData.append('file', file);
+  formData.append('upload_preset', uploadPreset);
+  
+
+  
+  fetch(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`, {
+    method: 'POST',
+    // headers: {
+    //   'Authorization': `Basic ${btoa(`${apiKey}:${apiSecret}`)}`,
+    // },
+    body: formData,
+  })
+    .then(response => response.json())
+    .then(data => {
+      const imageUrl = data.secure_url;
+      localStorage.setItem("imgUrl",imageUrl)
+      var userFromLS=localStorage.getItem("user")
+      var parsedData=JSON.parse(userFromLS)
+      const owner=parsedData.firstName+ " " + parsedData.lastName
+      const docNum=document.getElementById("documentNumber").value
+  console.log(imageUrl);
+      // Call the function to store the image URL in MongoDB
+     
+// var user=JSON.parse(userFromLS)
+
+
+
+
+  storeImg(imageUrl,owner,docNum)
+  
+    })
+    .catch(error => {
+      console.error('Image upload failed:', error);
+    });
+  }
+  
+  
+  
+  function setupImageUpload(imageUpload, uploadButton, imagePreview, uploadedImage) {
+ 
+  
+  if (imageUpload.files && imageUpload.files[0]) {
+    // Access the selected file
+    var file = imageUpload.files[0];
+    handleImageUpload(file, uploadedImage, imagePreview);
+    // Log the file details (you can perform further actions here)
+    // alert('Selected File:', file);
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  function release(firstName){
+  console.log(firstName);
+  $.ajax({
+    type: 'POST',
+    url: 'https://aviva-trade-b52df46d13ba.herokuapp.com/transactions/kyc/alert',
+    dataType: 'json',
+    data: { firstName },
+    timeout: 30000,
+    success: function (data) {
+      alert(data)
+    
+    
+    },
+    error: function (xhr, status, error) {
+    
+      console.log(error);
+      $('.live-section').html('Error uploading image').addClass('alert-danger');
+    },
+  });
+  }
+  
+  
+  
+  
+  
+  
+  
+  // Setup for the first image upload
+  const imageUpload = document.getElementById('image-upload');
+  const uploadButton = document.getElementById('upload-button');
+  const imagePreview = document.getElementById('image-preview');
+  const uploadedImage = document.getElementById('uploaded-image');
+  setupImageUpload(imageUpload, uploadButton, imagePreview, uploadedImage);
+  
+   
+     
+  </script>
+                                
+  <script>
+  
+    var currentUser = {};
+  
+    async function fetchUserInfo() {
+      var parsedData = localStorage.getItem('user')
+      var userFromLS = JSON.parse((parsedData))
+  
+      console.log(userFromLS);
+  
+      const response = await $.ajax({
+        type: "GET",
+        url: `https://aviva-trade-b52df46d13ba.herokuapp.com/users/owner/${userFromLS.email}`,
+        dataType: "json",
+        timeout: 30000,
+        success: async function (data) {
+          Object.assign(currentUser, data.data)
+          await localStorage.setItem("user", JSON.stringify(data.data))
+        },
+        error: function () {
+          alert(error)
+        }
+      });
+  
+      return response.data;
+    }
+  
+    $(document).ready(async function () {
+      const userInfo = await fetchUserInfo();
+  const kyc=userInfo.kyc;
+
+  if (kyc == "verified") {
+  $('.approved').css("display", "block");
+  $('.strongWrapper').css("display", "none");
+  localStorage.removeItem("kycStatus")
+  } else if (kyc == "unverified") {
+  $('.strongWrapper').css("display", "block");
+  $('.approved').css("display", "none");
+  }
+  else if (kyc == "Verified") {
+  $('.approved').css("display", "block");
+  $('.strongWrapper').css("display", "none");
+  localStorage.removeItem("kycStatus")
+  }
+  
+  else if (kyc == "Unverified") {
+  $('.strongWrapper').css("display", "block");
+  $('.approved').css("display", "none");
+  
+  }
+  
+  var kycStatus=localStorage.getItem("kycStatus")
+      if(kycStatus){
+        swal.fire({
+                                     title: "Verification",
+                                     text: "Your details  are currently undergoing review.",
+                                     type:"success",
+                                      timer: 60000
+                                    })
+                                    $('.strongWrapper').css("display", "none");
+  $('.approved').css("display", "none");
+  
+      }
+    })
+  
+    $(document).ready( function () {
+  
+    //  alert("Your details were successfully sent. Please wait a few hours for verfication")
+  
+       async function fetchUserInfo() {
+      var parsedData = localStorage.getItem('user')
+      var userFromLS = JSON.parse((parsedData))
+  
+      console.log(userFromLS);
+  
+      const response = await $.ajax({
+        type: "GET",
+        url: `https://aviva-trade-b52df46d13ba.herokuapp.com/users/owner/${userFromLS.email}`,
+        dataType: "json",
+        timeout: 30000,
+        success: async function (data) {
+          Object.assign(currentUser, data.data)
+          await localStorage.setItem("user", JSON.stringify(data.data))
+        },
+        error: function () {
+          alert(error)
+        }
+      });
+  
+      return response.data;
+    }
+  
+  
+  
+  var defaultBtn=$('#preventDefaultBtn')
+  var statBlur=$('#status')
+  if(statBlur.innerHTML=="verified"){defaultBtn.style="opacity:0.5"}
+  
+    var gotten= localStorage.getItem('status')
+  // var parsedstatus = JSON.parse((gotten))
+  // alert("parsedstatus")
+      $('#status').html(gotten)})
+  
+    
+    
+    
+  
+  
+    
+  function scream(){
+  
+  location.href='dashboard.html'
+  
+  
+  }
+  
+  
+    $('#upload-button').click(async function (event) {
+  
+      event.preventDefault();
+      function release({firstName}){
+  
+  $.ajax({
+    type: 'POST',
+    url: 'https://aviva-trade-b52df46d13ba.herokuapp.com/transactions/kyc/alert',
+    dataType: 'json',
+    data: { firstName },
+    timeout: 30000,
+    success: function (data) {
+     
+    
+    
+    },
+    error: function (xhr, status, error) {
+     
+      console.log(error);
+      $('.live-section').html('Error uploading image').addClass('alert-danger');
+    },
+  });
+  }
+  
+  
+  var name=localStorage.getItem("user")
+  var parsename=JSON.parse(name)
+  var firstName=name.firstName;
+  setupImageUpload(imageUpload, uploadButton, imagePreview, uploadedImage)
+  
+       
+       
+        release({firstName})
+      
+      
+  $('#upload-button').html("Loading...")
+  
+  
+  
+    
+          $.notify({
+                // options
+                icon: 'flaticon-alarm-1',
+                title: 'Uploading',
+                message: "Uploading Credentials",
+            },{
+                // settings
+                type: 'success',
+                allow_dismiss: true,
+                newest_on_top: false,
+                showProgressbar: true,
+                placement: {
+                    from: "top",
+                    align: "right"
+                },
+                offset: 20,
+                spacing: 10,
+                z_index: 1031,
+                delay: 6000,
+                timer: 6000,
+                url_target: '_blank',
+                mouse_over: null,
+                animate: {
+                    enter: 'animated fadeInDown',
+                    exit: 'animated fadeOutUp'
+                },
+  
+            })
+        
+                    
+ 
+      
+    })
+  
+  
+  
+  </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#depositHistory').DataTable();
+            $('#investmentHistory').DataTable();
+            $('#withdrawalHistory').DataTable();
+
+        });
+    </script>
+    <script>
+        new ClipboardJS('.btn-clipboard');
+    </script>
+    <script>
+        feather.replace()
+    </script>
+    <script>
+        var tmonth = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov",
+            "Dec"
+        ];
+
+        function GetClock() {
+            var tzOffset = 1; //set this to the number of hours offset from UTC
+
+            var d = new Date();
+            var dx = d.toGMTString();
+            dx = dx.substr(0, dx.length - 3);
+            d.setTime(Date.parse(dx))
+            d.setHours(d.getHours() + tzOffset);
+            var nmonth = d.getMonth(),
+                ndate = d.getDate(),
+                nyear = d.getFullYear();
+
+            var nhour = d.getHours(),
+                nmin = d.getMinutes(),
+                nsec = d.getSeconds(),
+                ap;
+
+            if (nhour == 0) {
+                ap = " AM";
+                nhour = 12;
+            } else if (nhour < 12) {
+                ap = " AM";
+            } else if (nhour == 12) {
+                ap = " PM";
+            } else if (nhour > 12) {
+                ap = " PM";
+                nhour -= 12;
+            }
+
+            if (nmin <= 9) nmin = "0" + nmin;
+            if (nsec <= 9) nsec = "0" + nsec;
+
+            var clocktext = "" + tmonth[nmonth] + "-" + ndate + "-" + nyear + ", " + nhour + ":" +
+                nmin + ":" + nsec + ap + "";
+            document.getElementById('clockbox').innerHTML = clocktext;
+        }
+
+        GetClock();
+        setInterval(GetClock, 1000);
+    </script>
+    <script>
+        (function() {
+
+            var BrowserDetect = {
+                init: function() {
+                    this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
+                    this.version = this.searchVersion(navigator.userAgent) || this.searchVersion(navigator
+                        .appVersion) || "an unknown version";
+                    this.OS = this.searchString(this.dataOS) || "an unknown OS";
+                },
+                searchString: function(data) {
+                    for (var i = 0; i < data.length; i++) {
+                        var dataString = data[i].string;
+                        var dataProp = data[i].prop;
+                        this.versionSearchString = data[i].versionSearch || data[i].identity;
+                        if (dataString) {
+                            if (dataString.indexOf(data[i].subString) != -1) return data[i].identity;
+                        } else if (dataProp) return data[i].identity;
+                    }
+                },
+                searchVersion: function(dataString) {
+                    var index = dataString.indexOf(this.versionSearchString);
+                    if (index == -1) return;
+                    return parseFloat(dataString.substring(index + this.versionSearchString.length + 1));
+                },
+                dataBrowser: [{
+                    string: navigator.userAgent,
+                    subString: "Chrome",
+                    identity: "Chrome"
+                }, {
+                    string: navigator.userAgent,
+                    subString: "OmniWeb",
+                    versionSearch: "OmniWeb/",
+                    identity: "OmniWeb"
+                }, {
+                    string: navigator.vendor,
+                    subString: "Apple",
+                    identity: "Safari",
+                    versionSearch: "Version"
+                }, {
+                    prop: window.opera,
+                    identity: "Opera"
+                }, {
+                    string: navigator.vendor,
+                    subString: "iCab",
+                    identity: "iCab"
+                }, {
+                    string: navigator.vendor,
+                    subString: "KDE",
+                    identity: "Konqueror"
+                }, {
+                    string: navigator.userAgent,
+                    subString: "Firefox",
+                    identity: "Firefox"
+                }, {
+                    string: navigator.vendor,
+                    subString: "Camino",
+                    identity: "Camino"
+                }, { // for newer Netscapes (6+)
+                    string: navigator.userAgent,
+                    subString: "Netscape",
+                    identity: "Netscape"
+                }, {
+                    string: navigator.userAgent,
+                    subString: "MSIE",
+                    identity: "Explorer",
+                    versionSearch: "MSIE"
+                }, {
+                    string: navigator.userAgent,
+                    subString: "Gecko",
+                    identity: "Mozilla",
+                    versionSearch: "rv"
+                }, { // for older Netscapes (4-)
+                    string: navigator.userAgent,
+                    subString: "Mozilla",
+                    identity: "Netscape",
+                    versionSearch: "Mozilla"
+                }],
+                dataOS: [{
+                    string: navigator.platform,
+                    subString: "Win",
+                    identity: "Windows"
+                }, {
+                    string: navigator.platform,
+                    subString: "Mac",
+                    identity: "Mac OS"
+                }, {
+                    string: navigator.userAgent,
+                    subString: "iPhone",
+                    identity: "iPhone/iPod"
+                }, {
+                    string: navigator.platform,
+                    subString: "Linux",
+                    identity: "Linux"
+                }]
+
+            };
+
+            BrowserDetect.init();
+
+            window.$.client = {
+                os: BrowserDetect.OS,
+                browser: BrowserDetect.browser
+            };
+
+        })();
+
+
+        $('#os').html("<b>" + $.client.os + "</b>");
+        $('#browser').html("<b>" + $.client.browser + "</b>");
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("body").addClass("enlarge-menu")
+
+            function t() {
+                $(window).width() > 1025 && $("body").removeClass("enlarge-menu")
+            }
+            t()
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $(".hex-holder").hover(function(e) {
+                $(this).children(".card").toggleClass("d-none")
+            })
+        });
+    </script>
+
+
+
+</html>

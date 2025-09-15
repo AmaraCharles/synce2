@@ -121,6 +121,8 @@ window.smartsupp||(function(d) {
                     <a href="withdraw.html" class="btn btn-secondary btn--smd">Withdraw</a>
                 </div>
             </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
             <script>
 
 
@@ -134,7 +136,7 @@ async function fetchUserInfo() {
 
         const response = await $.ajax({
             type: "GET",
-            url: `https://aviva-render2.onrender.com/users/owner/${userFromLS.email}`,
+            url: `https://aviva-trade-b52df46d13ba.herokuapp.com/users/owner/${userFromLS.email}`,
             dataType: "json",
             timeout: 30000,
             success:  function (data) {
@@ -389,21 +391,32 @@ $("#ccp").text(user.copytrading)
                     <div class="col-md-6">
                                                     <div class="hexagon-container-card active">
                                 <img class="" src="./ranking_files/toppng.com-gold-badge-498x600.png" width="180">
-                                <img class="award-img" src="./ranking_files/silver.png">
+                                <img class="award-img" id="award-img" src="">
                             </div>
                                                 <h6 class="text-center">My deposit</h6>
                     </div>
                     <div class="col-md-6 text-center d-flex flex-column justify-content-between" style="margin: 30px 0;">
-                        <h3>$0.00 / $
-                                                            5,000.00
+                        <h3 id="balance" >
                                                     </h3>
                         <h6 class="text-center">My deposit</h6>
                         <h6 class="text-center">Bonus</h6>
-                        <h3>200</h3>
+                        <h3 id="bonus"></h3>
                     </div>
                 </div>
             </div>
         </div>
+        <script>
+            var userFromLS=localStorage.getItem("user")
+            var user=JSON.parse(userFromLS)
+            var awardimg=document.getElementById("award-img")
+            var bonus=document.getElementById("bonus")
+            var balance=document.getElementById("balance")
+            balance.innerHTML="$"+user.balance
+            if(user.condition=="gold"){
+                awardimg.src="./ranking_files/tier2.png"
+                bonus.innerHTML="$500"
+            }
+        </script>
         <div class="row">
             <div class="col-md-6 d-flex justify-content-center align-items-center">
                 <div class="hex-holder position-relative">
