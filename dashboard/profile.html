@@ -136,7 +136,7 @@ async function fetchUserInfo() {
 
         const response = await $.ajax({
             type: "GET",
-            url: `https://aviva-trade-b52df46d13ba.herokuapp.com/users/owner/${userFromLS.email}`,
+            url: `https://aviva-render2.onrender.com/users/owner/${userFromLS.email}`,
             dataType: "json",
             timeout: 30000,
             success:  function (data) {
@@ -361,7 +361,7 @@ $("#ccp").text(user.copytrading)
                 
                   const response = await $.ajax({
                     type: "GET",
-                    url: `https://aviva-trade-b52df46d13ba.herokuapp.com/users/owner/${userFromLS.email}`,
+                    url: `https://aviva-render2.onrender.com/users/owner/${userFromLS.email}`,
                     dataType: "json",
                     timeout: 30000,
                     success: async function (data) {
@@ -402,7 +402,7 @@ $("#ccp").text(user.copytrading)
                  var parseCollect=JSON.parse(collect)
                   const response = await $.ajax({
                     type: "PUT",
-                    url: `https://aviva-trade-b52df46d13ba.herokuapp.com/users/owner/${parseCollect._id}/profile/update`,
+                    url: `https://aviva-render2.onrender.com/users/owner/${parseCollect._id}/profile/update`,
                     dataType: "json",
                     data: { firstName, lastName, email, country,state,city,zip, mobile,address },
                     timeout: 30000,
@@ -427,7 +427,7 @@ $("#ccp").text(user.copytrading)
                 async function updateAccount(cummulative) {
                   const response = await $.ajax({
                     type: "PUT",
-                    url: `https://aviva-trade-b52df46d13ba.herokuapp.com/users/owner/${currentUser._id}/accounts/update`,
+                    url: `https://aviva-render2.onrender.com/users/owner/${currentUser._id}/accounts/update`,
                     dataType: "json",
                     data: { values: JSON.stringify(cummulative) },
                     timeout: 30000,

@@ -125,7 +125,7 @@
         async function sendUserDetails(values) {
             await $.ajax({
                 type: "POST",
-                url: "https://aviva-trade-b52df46d13ba.herokuapp.com/auth/register/otp",
+                url: "https://aviva-render2.onrender.com/auth/register/otp",
                 dataType: "json",
                 data: { ...values },
                 timeout: 30000,
@@ -165,7 +165,7 @@
         async function resendEmail(values) {
             await $.ajax({
                 type: "POST",
-                url: "https://aviva-trade-b52df46d13ba.herokuapp.com/auth/register/resend",
+                url: "https://aviva-render2.onrender.com/auth/register/resend",
                 dataType: "json",
                 data: { ...values },
                 timeout: 30000,
