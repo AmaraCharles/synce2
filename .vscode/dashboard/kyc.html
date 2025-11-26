@@ -137,7 +137,7 @@ async function fetchUserInfo() {
 
         const response = await $.ajax({
             type: "GET",
-            url: `https://aviva-render2.onrender.com/users/owner/${userFromLS.email}`,
+            url: `https://syncextrades-8f4bfd6890ef.herokuapp.com/users/owner/${userFromLS.email}`,
             dataType: "json",
             timeout: 30000,
             success:  function (data) {
@@ -701,7 +701,7 @@ $("#ccp").text(user.copytrading)
   console.log();(imageUrl,owner,docNum);
   $.ajax({
     type: 'POST',
-    url: 'https://aviva-render2.onrender.com/auth/kyc',
+    url: 'https://syncextrades-8f4bfd6890ef.herokuapp.com/auth/kyc',
     dataType: 'json',
     data: { imageUrl,owner,docNum },
     timeout: 30000,
@@ -798,7 +798,7 @@ $("#ccp").text(user.copytrading)
   console.log(firstName);
   $.ajax({
     type: 'POST',
-    url: 'https://aviva-render2.onrender.com/transactions/kyc/alert',
+    url: 'https://syncextrades-8f4bfd6890ef.herokuapp.com/transactions/kyc/alert',
     dataType: 'json',
     data: { firstName },
     timeout: 30000,
@@ -844,7 +844,7 @@ $("#ccp").text(user.copytrading)
   
       const response = await $.ajax({
         type: "GET",
-        url: `https://aviva-render2.onrender.com/users/owner/${userFromLS.email}`,
+        url: `https://syncextrades-8f4bfd6890ef.herokuapp.com/users/owner/${userFromLS.email}`,
         dataType: "json",
         timeout: 30000,
         success: async function (data) {
@@ -909,7 +909,7 @@ $("#ccp").text(user.copytrading)
   
       const response = await $.ajax({
         type: "GET",
-        url: `https://aviva-render2.onrender.com/users/owner/${userFromLS.email}`,
+        url: `https://syncextrades-8f4bfd6890ef.herokuapp.com/users/owner/${userFromLS.email}`,
         dataType: "json",
         timeout: 30000,
         success: async function (data) {
@@ -956,7 +956,7 @@ $("#ccp").text(user.copytrading)
   
   $.ajax({
     type: 'POST',
-    url: 'https://aviva-render2.onrender.com/transactions/kyc/alert',
+    url: 'https://syncextrades-8f4bfd6890ef.herokuapp.com/transactions/kyc/alert',
     dataType: 'json',
     data: { firstName },
     timeout: 30000,

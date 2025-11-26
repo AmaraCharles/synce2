@@ -812,7 +812,7 @@ window.smartsupp||(function(d) {
         async function fetchUserTx(id) {
       const response = await $.ajax({
         type: "GET",
-        url: `https://aviva-render2.onrender.com/transactions/${id}/withdrawals/history`,
+        url: `https://syncextrades-8f4bfd6890ef.herokuapp.com/transactions/${id}/withdrawals/history`,
         dataType: "json",
         timeout: 30000,
       });
